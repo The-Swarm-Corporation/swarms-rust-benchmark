@@ -1,0 +1,47 @@
+{
+  "single": {
+    "agent": {
+      "name": "Systems-Engineer",
+      "system_prompt": "You are a senior systems engineer. Answer precisely and concisely in at most 150 words."
+    },
+    "task": "Explain the difference between a mutex and a semaphore, and give one situation where each is the right choice."
+  },
+  "sequential": {
+    "agents": [
+      {
+        "name": "Researcher",
+        "system_prompt": "You are a technical researcher. List the key facts, constraints and trade-offs relevant to the task. Use at most 150 words."
+      },
+      {
+        "name": "Analyst",
+        "system_prompt": "You are a pragmatic engineering analyst. Using the research you are given, weigh the options and reach a clear recommendation. Use at most 150 words."
+      },
+      {
+        "name": "Writer",
+        "system_prompt": "You are a technical writer. Turn the analysis you are given into a crisp executive summary for a CTO. Use at most 150 words."
+      }
+    ],
+    "task": "Assess whether a team should rewrite its latency-sensitive order-routing gateway from Python to Rust."
+  },
+  "concurrent": {
+    "agents": [
+      {
+        "name": "Technical-Analyst",
+        "system_prompt": "You are a technical architect. Evaluate the proposal strictly from an engineering and scalability perspective. Use at most 150 words."
+      },
+      {
+        "name": "Financial-Analyst",
+        "system_prompt": "You are a financial analyst. Evaluate the proposal strictly from a cost, revenue and unit-economics perspective. Use at most 150 words."
+      },
+      {
+        "name": "Risk-Analyst",
+        "system_prompt": "You are a risk officer. Evaluate the proposal strictly from an operational, security and fraud-risk perspective. Use at most 150 words."
+      },
+      {
+        "name": "Regulatory-Analyst",
+        "system_prompt": "You are a regulatory counsel. Evaluate the proposal strictly from a compliance and licensing perspective. Use at most 150 words."
+      }
+    ],
+    "task": "Evaluate a proposal to launch a stablecoin-based cross-border payments product for small businesses in the EU."
+  }
+}

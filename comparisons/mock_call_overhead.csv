@@ -1,0 +1,5 @@
+framework,single_first_call_ms,single_warm_median_ms,single_warm_p95_ms,single_http_calls_per_run,single_request_bytes,sequential_warm_median_ms,sequential_http_calls_per_run,sequential_stage_request_bytes,iterations
+swarms-rs,1.04,0.113,0.159,1.0,364,0.483,3.0,391/2717/4986,30
+swarms-python,7.38,1.112,1.427,1.0,364,4.127,3.0,464/2722/4875,30
+langgraph,45.28,1.768,1.948,1.0,298,4.318,3.0,325/2551/2523,30
+crewai,47.97,9.679,19.721,1.0,822,27.057,3.0,837/3081/5182,30

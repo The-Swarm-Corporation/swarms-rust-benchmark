@@ -1,0 +1,5 @@
+framework,version,startup_ms_median,startup_ms_min,startup_ms_max,import_ms_median,agent_build_ms_median,peak_rss_mb_median,processes
+swarms-rs,0.3.0,5.8,5.4,9.7,0.0,0.014,3.7,10
+swarms-python,15.0.3,2646.8,2521.4,2736.7,2312.0,0.921,250.5,10
+langgraph,1.2.12,779.8,693.7,1020.2,624.1,1.179,94.2,10
+crewai,1.15.23,1439.4,1394.5,1760.8,1065.0,113.522,178.7,10
